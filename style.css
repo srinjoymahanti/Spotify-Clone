@@ -72,8 +72,12 @@ a{
     align-items: center;
 }
 .lib-options img{
+    opacity: 0.6;
     height:1.25rem;
     width: 1.25rem ;
+}
+.lib-options img:hover{
+    opacity:1;
 }
 .icons{
     font-size: 1.25rem;
@@ -82,8 +86,11 @@ a{
     display: flex;
 }
 .icons i{
-    opacity: 1;
+    opacity: 0.6;
     margin-right: 1rem;
+}
+.icons i:hover{
+    opacity: 1;
 }
 .box{
     background-color: #232323;
@@ -130,6 +137,12 @@ a{
 }
 .sticky-nav-icons{
     margin-left: 0.75rem;
+}
+.sticky-nav-icons img{
+    opacity: 0.7;
+}
+.sticky-nav-icons img:hover{
+    opacity: 1;
 }
 .sticky-nav-options{
     display: flex;
